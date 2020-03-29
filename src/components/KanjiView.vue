@@ -23,5 +23,13 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .kanji-list {
+    margin: auto;
+    width: 900px;
+  }
 }
 </style>

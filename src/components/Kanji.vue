@@ -21,25 +21,25 @@ export default {
 <style scoped>
 .kanji-container {
   border-radius: 0.25rem;
-  background-color: hsl(345, 100%, 25%);
-  color: #eee;
+  background-color: hsl(200, 95%, 50%);
+  color: #111;
   font-size: 3.5rem;
-  margin: 0.5rem;
+  margin: 1rem 0.5rem;
   padding: 0.5rem;
   text-align: center;
   transition: 0.15s;
 }
 
 .kanji-container:hover {
-  background-color: hsl(345, 100%, 42%);
+  background-color: hsl(200, 95%, 65%);
   cursor: pointer;
 }
 
 .kanji-keyword {
-  background-color: hsl(345, 100%, 42%);
+  background-color: hsl(200, 95%, 65%);
   border-radius: 0.25rem;
   display: none;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   position: fixed;
   top: 10px;
   left: 10px;
