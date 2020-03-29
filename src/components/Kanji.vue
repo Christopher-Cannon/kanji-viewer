@@ -21,9 +21,9 @@ export default {
 <style scoped>
 .kanji-container {
   border-radius: 0.25rem;
-  background-color: #111;
+  background-color: hsl(345, 100%, 25%);
   color: #eee;
-  font-size: 2rem;
+  font-size: 3.5rem;
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
@@ -31,7 +31,7 @@ export default {
 }
 
 .kanji-container:hover {
-  background-color: #333;
+  background-color: hsl(345, 100%, 42%);
   cursor: pointer;
 }
 
