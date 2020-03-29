@@ -61,6 +61,7 @@ input:focus {
 .btn {
   background-color: hsl(200, 95%, 50%);
   border: 1px solid hsl(200, 95%, 50%);
+  cursor: pointer;
   flex: 2;
   font-weight: bold;
 }
