@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     filterKanji(criteria) {      
-      const newKanji = KanjiList.filter(k =>  k.keyword.startsWith(criteria.criteria) ? k : false);
+      const newKanji = KanjiList.filter(k =>  k.keyword.toLowerCase().startsWith(criteria.criteria.toLowerCase()) ? k : false);
 
       this.kanji = newKanji;
     }

@@ -25,7 +25,7 @@ export default {
   color: #111;
   font-size: 3.5rem;
   margin: 1rem 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   text-align: center;
   transition: 0.15s;
 }
