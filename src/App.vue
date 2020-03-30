@@ -4,7 +4,7 @@
 
     <p class="info">Click on a kanji to look it up on <a href="https://jisho.org">Jisho.org</a>.</p>
     
-    <FilterKanji v-on:filter-kanji="filterKanji" />
+    <FilterKanji v-on:filter-kanji="filterKanji" v-on:filter-range="filterRange" />
 
     <KanjiView v-bind:kanji="kanji" />
   </div>
@@ -29,6 +29,11 @@ export default {
   methods: {
     filterKanji(criteria) {      
       const newKanji = KanjiList.filter(k =>  k.keyword.toLowerCase().startsWith(criteria.criteria.toLowerCase()) ? k : false);
+
+      this.kanji = newKanji;
+    },
+    filterRange(range) {
+      const newKanji = KanjiList.filter(k => k.id >= range.min && k.id <= range.max ? k : false);
 
       this.kanji = newKanji;
     }
