@@ -1,4 +1,4 @@
-# kanji_viewer
+# [kanji_viewer](https://christopher-cannon.github.io/kanji-viewer/)
 
 ## Project setup
 ```
